@@ -1,22 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
+<?php 
+$title = "my first page";
+include 'header.php'; 
+?>
+
     <?php
 
-        echo "Teste de PHP";
-
-        echo "alterando.";
-
-        echo "terceira alteração";
+        echo "<p>Teste de PHP</p>";
+        echo "<p>alterando.</p>";
+        echo "<p>terceira alteração</p>";
 
     ?>
-</body>
-</html>
+
+<?php require 'footer.php'; ?>
+
+
+
