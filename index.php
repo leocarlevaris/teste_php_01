@@ -13,6 +13,8 @@
 
         echo "Teste de PHP";
 
+        echo "alterando.";
+
     ?>
 </body>
 </html>
